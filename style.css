@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 30px;
+  padding: 30px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: cyan;
+  margin-bottom: 20px;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.display-box, .input-box {
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.display-box {
+  background: #3d4d5c;
+  color: #eee;
+}
+
+.input-box {
+  background: #1b2b34;
+  color: #fff;
+  resize: none;
+}
+
+.btn-group {
+  text-align: center;
+  margin: 20px 0;
+}
+
+button {
+  background-color: cyan;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.stats {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+}
+
+#quoteMessage {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: lightgreen;
+}

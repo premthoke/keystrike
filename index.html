@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KeyStrike ⚡ Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>KeyStrike ⚡</h1>
+
+    <div class="settings">
+      <label>📖 Difficulty:
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </label>
+      <label>
+        <input type="checkbox" id="customTextCheck" />
+        Use Custom Text
+      </label>
+    </div>
+
+    <div class="text-boxes">
+      <div id="quoteDisplay" class="display-box"></div>
+      <textarea id="quoteInput" class="input-box" placeholder="Start typing here..." disabled></textarea>
+    </div>
+
+    <div class="btn-group">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+
+    <div class="stats">
+      ⏳ Time: <span id="timer">0s</span>
+      📘 Mistakes: <span id="mistakes">0</span>
+      📈 WPM: <span id="wpm">0</span>
+    </div>
+
+    <canvas id="resultChart" width="250" height="250"></canvas>
+    <p id="quoteMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
