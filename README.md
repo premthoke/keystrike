@@ -35,3 +35,12 @@
 - **Design**: Glassmorphism, Neon-Dark theme, Responsive CSS
 
 ---
+
+## 👨‍💻 Creator
+
+Made with 🤍 by Prem Thoke
+- GitHub: [@premthoke](https://github.com/premthoke)  
+- LinkedIn: [Prem Thoke](https://linkedin.com/in/premthoke)
+- Insta: [@_prem_thoke]
+
+---
