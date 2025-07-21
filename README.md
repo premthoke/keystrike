@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Site
 
 🔗 [Click here to try KeyStrike now](https://premthoke.github.io/keystrike/)
 
