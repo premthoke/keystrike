@@ -38,7 +38,7 @@
 
 ## 👨‍💻 Creator
 
-Made with 🤍 by Prem Thoke
+Made with 🤍 by Prem Thoke n Chibi🌶 
 - GitHub: [@premthoke](https://github.com/premthoke)  
 - LinkedIn: [Prem Thoke](https://linkedin.com/in/premthoke)
 - Insta: [@_prem_thoke]
